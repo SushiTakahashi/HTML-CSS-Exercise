@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        
+
+body {
+     background-color:rgb(0, 0, 0)
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+
+.container .heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+.container .heading h3{
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgb(255, 0, 0);
+}
+
+.container .heading h3 span{
+  font-weight: 100;
+}
+.container .round{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ border-radius: 35px;
+}
+
+.container .round .dream{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+  border-radius: 35px;
+}
+
+.container .round .dream img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 35px;
+}
+
+.container .btn{
+  margin: 40px 0 70px 0;
+  background: #222;
+  padding: 15px 40px ;
+  border-radius: 35px;
+}
+
+.container .btn a{
+ color: rgb(255, 238, 0);
+ font-size: 1.2em;
+ text-decoration: none;
+ font-weight: bolder;
+ letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 769px){
+    .container .round{
+   flex-direction: column;
+  }
+
+.container .round.dream{
+  width: 100%;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 643px){
+.container .heading{
+  width: 100%;
+}
+.container .heading h3{
+  font-size: 1em;
+
+}
+
+
+
+
+
+
+
+}
+    </style>
+  <div class="container">
+    <div class="heading">
+        <style>
+            body {
+  color: rgb(255, 251, 0);
+}
+
+h3{
+  color: rgb(255, 238, 0);
+}
+        </style>
+      <h3>Photo <span>Gallery</span></h3>
+    </div>
+    <div class="round">
+      
+      <div class="dream">
+        <img src="Downloads/MYSELF/IMG20210927095256.jpg">
+         <img src="Downloads/MYSELF/IMG20210929173306.jpg">
+          <img src="Downloads/MYSELF/IMG20211008235532.jpg">
+           <img src="Downloads/MYSELF/IMG20211008235602.jpg">
+            <img src="Downloads/MYSELF/IMG20211008235737.jpg">
+            
+      </div>
+
+        <div class="dream">
+        <img src="Downloads/MYSELF/IMG_20210828_214552.jpg">
+         <img src="Downloads/MYSELF/IMG_20210901_160406.jpg">
+          <img src="Downloads/MYSELF/received_272760486736352.jpeg">
+           <img src="Downloads/MYSELF/received_274433413241644.jpeg">
+            <img src="Downloads/MYSELF/received_3026585000784143.jpeg">
+            
+      </div>
+
+      <div class="dream">
+        <img src="Downloads/MYSELF/received_944966012994532.jpeg">
+        
+      </div>
+
+    
+
+    </div>
+    
+
+
+
+
+
+  </div>
+
+</body>
+</html>
